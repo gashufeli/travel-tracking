@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Staff Data entry page </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+      
+  </head>
+  <body>
+      <div class="container">
+        <h2>Travel Booking page</h2>
+         <hr>
+        <a class="btn btn-info" href="index.htm" role="button">< Go to Homepage</a>
+        
+        <hr>
+      </div>
+      
+     
+
+<!--container for the entry forms-->
+      <div class="container">
+        <form action="#" method="get" name="staff" id="staff" onSubmit="return validateStaff">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" id="name" name="name" class="form-control">
+            
+            <label>Meeting & Institution</label>
+            <input type="text" id="meeting" name="meeting" class="form-control">
+            
+            <label>venue</label>
+            <input type="text" id="venue" name="venue" class="form-control">
+            
+            <label>Date</label>
+            <input type="text" id="date" name="date" class="form-control" placeholder="yyyy/mm/dd">
+            
+            <label>Justification</label>
+            <input type="text" id="justification" name="justification" class="form-control">
+            
+            <label>Project</label>
+            <input type="text" id="project" name="project"  class="form-control">
+            
+          <hr>
+          
+          <label>Budget line</label>
+            <input type="text" id="budgetline" name="budgetline" class="form-control">
+            
+            <label>Estimated Travel cost</label>
+            <input type="text" id="travelcost" name="travelcost" class="form-control">
+            
+            <label>Additional costs</label>
+            <input type="text" id="extracost" name="extracost" class="form-control">
+            
+            <hr>
+            
+            <label>percentage of travel budget required</label>
+            <input type="text" id="percentage" name="percentage" class="form-control">
+            
+            <label>Department</label>
+            <input type="text" id="department" name="department" class="form-control">
+            
+            <label>Applicable Quarter</label>
+            <input type="text" id="quarter" name="quarter" class="form-control">
+            
+            <label>Total allocated</label>
+            <input type="text" id="allocated" name="allocated" class="form-control" placeholder="travel budget for the year">
+            
+            <label>Travel Budget</label>
+            <input type="text" id="budget" name="budget" class="form-control" placeholder="as of date">
+            
+            <label>Regional office</label>
+            <input type="text" id="office" name="office" class="form-control" placeholder="mission destination">
+            
+            <hr>
+             <input type="submit" id="submit" name="submit" class="btn btn-primary" />
+              <button class="btn btn-primary">Update</button>
+               <button class="btn btn-primary">Submit</button>
+                <button class="btn btn-info">Link to the project</button>
+            <hr>
+          </div>
+        </form>
+          </div>
+      <!--validate form -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/formvalidation.js"></script>
+  </body>
+</html>
